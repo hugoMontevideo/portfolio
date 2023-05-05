@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <script src="assets/js/main.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-layout">
+
+            <div class="logo"><a href="#home">BRUCE WAYNE</a></div>
+
+            <!-- <div class="mobile none"><img src="assets/img/icons8-menu.svg" alt="menu burger"></div> -->
+
+            <button 
+                type="button" aria-label="toggle curtain navigation" 
+                class="nav-toggler">
+                <span class="line l1"></span>
+                <span class="line l2"></span>
+                <span class="line l3"></span>
+            </button>
+            
+        </div>
+            <nav class="desktop">
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#a_propos">A PROPOS</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+    </header>
+    <nav class="nav-curtain">
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#a_propos">A PROPOS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <main>
+        <section id="home" class="home">
+            <div>
+                <img src="assets/img/profile.png" alt="">
+            </div>
+            <h1>Bruce Wayne</h1>
+            <span></span>
+            <h3>Développeur web</h3>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h1>PORTFOLIO</h1>
+            <span></span>
+            <div class="layout">
+                <div class="img">
+                    <img src="assets/img/cabin.png" alt="cabane">
+                </div>
+                <div class="img">
+                    <img src="assets/img/cake.png" alt="gâteau">
+                </div>
+                <div class="img">
+                    <img src="assets/img/circus.png" alt="cirque">
+                </div>
+                <div class="img">
+                    <img src="assets/img/game.png" alt="joystick">
+                </div>
+                <div class="img">
+                    <img src="assets/img/submarine.png" alt="sous-marin">
+                </div>
+                <div class="img">
+                    <img src="assets/img/safe.png" alt="coffre-fort">
+                </div>
+            </div>
+        </section>
+
+        <section id="a_propos" class="a_propos">
+            <h1>A PROPOS</h1>
+            <span></span>
+            <div class="a_propos-layout">
+                <div class="formation">
+                    <h3>Formation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatibus ut fuga possimus id repellendus numquam amet natus cumque dignissimos perspiciatis praesentium saepe, distinctio, iure, ullam omnis debitis voluptatem quos? Nobis perferendis, doloremque tempora dolores harum mollitia quis a! Porro officia reprehenderit nemo libero ipsam, similique nesciunt temporibus cupiditate suscipit.</p>
+                </div>
+                <div class="experience">
+                    <h3>Expérience</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quibusdam quaerat voluptas quos. Quia asperiores optio harum eos voluptatibus quod qui officia quidem molestias, dolores aliquid impedit quibusdam voluptates ratione deserunt odio voluptatum excepturi accusantium vitae iste reiciendis. Non repellendus ipsam cum voluptate, neque aliquid iure aut ad? Architecto, incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. obcaecati temporibus veritatis laudantium neque excepturi eligendi mollitia!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h1>CONTACTEZ MOI</h1>
+            <span></span>
+            <div class="formulaire">
+                <form action="#">
+                    
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom">
+                    <label for="phone">Téléphone</label>
+                    <input type="text" id="phone">
+                    <label for="mail">Mail</label>
+                    <input type="mail" id="mail">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="6"></textarea>
+                    <button type="submit" >Envoyer !</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="adresse">
+                <h3>Adresse</h3>
+                <p>Gotham City, New Jersey</p>
+            </div>
+            <div class="reseaux">
+                <h3>Mes réseaux</h3>
+                <div class="reseaux-icones">
+                    <div class="img-social">
+                        <img src="assets/img/icons8-facebook.svg" alt="icone facebook">
+                    </div>
+                    <div class="img-social">
+                        <img src="assets/img/icons8-linkedin.svg" alt="icone linkedin">
+                    </div>
+                    <div class="img-social">
+                        <img src="assets/img/icons8-logo-twitter-encadré-30.png" alt="icone tweeter"></div>
+                </div>
+            </div>
+            </div>
+        <div class="copyright"><p>Copyright &copy; Bruce Wayne</p></div>
+    </footer>
+    
+</body>
+</html>
